@@ -162,10 +162,11 @@
       "inherits": [
         "ci-x64-Release-Clang",
         "ci-CPP",
-        "ci-Fortran",
-        "ci-Java",
         "ci-StdShar"
-      ]
+      ],
+      "cacheVariables": {
+        "CMAKE_CXX_FLAGS": "-fopenmp --offload-arch=gfx90a --rocm-path=/opt/rocm-6.4.0"
+      }
     },
     {
       "name": "ci-StdShar-macos-Clang",

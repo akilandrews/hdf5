@@ -311,7 +311,7 @@
         "ci-StdShar"
       ],
       "cacheVariables": {
-        "CMAKE_CXX_FLAGS": "-fopenmp --offload-arch=gfx906 --rocm-path=/opt/rocm-7.0.2"
+        "CMAKE_CXX_FLAGS": "-fopenmp --offload-arch=gfx906 --rocm-path=/opt/rocm-7.1.0"
       }
     },
     {
